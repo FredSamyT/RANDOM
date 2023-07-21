@@ -1,5 +1,5 @@
 
-  var colors = ['blue', 'green', 'red'];
+  var colors = ['blue', 'green', 'red', 'black', 'white', 'pink'];
   var colorIndex = 0;
 
     setup = function(){
@@ -10,7 +10,7 @@
             colorIndex = (colorIndex + 1) % colors.length
         }
 
-        setInterval(changeColor, 2500);
+        setInterval(changeColor, 500);
     }
 
 $(document).ready(setup);

@@ -10,7 +10,6 @@
             colorIndex = (colorIndex + 1) % colors.length
         }
 
-        setInterval(changeColor, 500);
     }
 
 $(document).ready(setup);
